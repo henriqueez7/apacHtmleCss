@@ -1,0 +1,58 @@
+/* SOBRE */
+.sobre{
+    background-color: hsl(248, 92%, 5%);
+}
+
+.sobre .container{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    padding-bottom: 10rem;
+}
+
+
+.sobreText{ 
+    width: 50%;
+    padding: 0 40px;
+}
+
+.sobreText h3{
+    font-size: 3.2rem;
+    color: #fff;
+}
+
+.sobreText p{
+    margin: 14px 0;
+    color: #fff;
+}
+
+.sobreImg{
+    width: 50%;
+}
+
+.sobreImg img{
+    width: 100%;
+}
+
+
+/* Sobre Responsigo
+
+.sobre .container{
+    flex-direction: column-reverse;
+}
+
+.sobre .sobre-img,
+.sobre .sobre-text{
+    width: 100%;
+}
+
+.sobre .sobre-text{
+    margin-top: 40px;
+}
+
+.banner 
+.banner-text h1{
+    font-size: 4rem;
+} */

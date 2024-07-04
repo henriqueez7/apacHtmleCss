@@ -1,58 +1,141 @@
 /* SOBRE */
-.sobre{
+.sobre {
     background-color: hsl(248, 92%, 5%);
-}
-
-.sobre .container{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.container{
-    padding-bottom: 10rem;
+.container-sobre {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: center;
+    background-image: linear-gradient(rgba(14, 4, 56, 0.6), rgba(20, 7, 75, 0.7));   
+    flex-wrap: wrap;
 }
 
-
-.sobreText{ 
+.sobreText {
     width: 50%;
     padding: 0 40px;
+    box-sizing: border-box;
 }
 
-.sobreText h3{
+.sobreText h3 {
     font-size: 3.2rem;
     color: #fff;
 }
 
-.sobreText p{
+.sobreText p {
     margin: 14px 0;
     color: #fff;
 }
 
-.sobreImg{
+.sobreImg {
     width: 50%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sobreImg img{
+.imagem-controle{
     width: 100%;
+    animation:  float 3s ease-in-out infinite;
+    
+} @keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    } 50% {
+        transform: translateY(-50px);
+    }
 }
 
+/* Sobre Responsivo */
+@media (max-width: 768px) {
+    .sobre .container {
+        flex-direction: column-reverse;
+    }
 
-/* Sobre Responsigo
+    .sobreText,
+    .sobreImg {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
 
-.sobre .container{
-    flex-direction: column-reverse;
+    .sobreText h3 {
+        font-size: 2.5rem;
+    }
 }
 
-.sobre .sobre-img,
-.sobre .sobre-text{
+/*Segunda card */
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sobre {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sobreText2 {
+    width: 50%;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.sobreText2 h3 {
+    font-size: 3.2rem;
+    color: #fff;
+}
+
+.sobreText2 p {
+    margin: 14px 0;
+    color: #fff;
+}
+
+.sobreImg2 {
+    width: 40%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-controle2{
     width: 100%;
+    animation:  float 3s ease-in-out infinite;
+    
+} @keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    } 50% {
+        transform: translateY(-50px);
+    }
 }
 
-.sobre .sobre-text{
-    margin-top: 40px;
-}
+/* Sobre Responsivo */
+@media (max-width: 768px) {
+    .sobre .container {
+        flex-direction: column-reverse;
+    }
 
-.banner 
-.banner-text h1{
-    font-size: 4rem;
-} */
+    .sobreText,
+    .sobreImg {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+
+    .sobreText h3 {
+        font-size: 2.5rem;
+    }
+}

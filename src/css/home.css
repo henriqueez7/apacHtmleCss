@@ -164,6 +164,7 @@ nav .close-icon{
 
     nav .menu-icon{
         display: block;
+        color: #fbfcfd;
     }
 
     nav .close-icon{
@@ -172,6 +173,7 @@ nav .close-icon{
         top: 46px;
         right: 28px;
         cursor: pointer;
+        color: #fbfcfd;
     }
 
 }
